@@ -33,24 +33,26 @@ make
 
 # Çalıştır
 ./sosyal_ag
-
+```
 ## 📂 Veri Seti Formatı
 data/ag_verisi.txt dosyasını aşağıdaki formatta hazırlayın:
+```
 USER 101
 USER 102
 USER 103
 FRIEND 101 102
 FRIEND 101 103
-
+```
 ## 🧠 Algoritma Detayları
 Red-Black Tree
-
+```
 void insert_user(User **root, User *node) {
   // Kullanıcıyı ağaca ekler ve dengeyi sağlar
 }
-
+```
 DFS ile Arkadaş Bulma
-
+```
 void dfs(User *current, int depth, int target, List *result) {
   // Belirtilen derinlikteki kullanıcıları listeler
 }
+```
