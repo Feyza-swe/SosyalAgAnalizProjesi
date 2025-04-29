@@ -1,7 +1,5 @@
 # Sosyal Ağ Analizi - Red-Black Tree Uygulaması
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
-![Lisans](https://img.shields.io/github/license/kullaniciadiniz/sosyal-ag-analizi?color=blue)
 
 ## 📌 Proje Açıklaması  
 Red-Black Tree (Kırmızı-Siyah Ağaç) kullanarak geliştirdiğim bu proje, sosyal ağlardaki kullanıcı ilişkilerini analiz eder. Kullanıcıları verimli bir şekilde saklar ve aşağıdaki analizleri yapar.
@@ -35,3 +33,24 @@ make
 
 # Çalıştır
 ./sosyal_ag
+
+## 📂 Veri Seti Formatı
+data/ag_verisi.txt dosyasını aşağıdaki formatta hazırlayın:
+USER 101
+USER 102
+USER 103
+FRIEND 101 102
+FRIEND 101 103
+
+## 🧠 Algoritma Detayları
+Red-Black Tree
+
+void insert_user(User **root, User *node) {
+  // Kullanıcıyı ağaca ekler ve dengeyi sağlar
+}
+
+DFS ile Arkadaş Bulma
+
+void dfs(User *current, int depth, int target, List *result) {
+  // Belirtilen derinlikteki kullanıcıları listeler
+}
