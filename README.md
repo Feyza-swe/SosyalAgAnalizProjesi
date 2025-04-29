@@ -1,17 +1,37 @@
-# Sosyal Ağ Analiz Projesi
- 
-##📌 Proje Açıklaması
-Bu proje, Red-Black Tree (Kırmızı-Siyah Ağaç) veri yapısını kullanarak bir sosyal ağ analiz sistemi implemente eder. Kullanıcılar arasındaki arkadaşlık ilişkilerini modelleyerek çeşitli analizler yapar.
+# Sosyal Ağ Analizi - Red-Black Tree Uygulaması
 
-##🌟 Özellikler
-Kullanıcı ekleme ve arkadaşlık ilişkileri oluşturma
+![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+![Lisans](https://img.shields.io/github/license/kullaniciadiniz/sosyal-ag-analizi?color=blue)
 
-DFS/BFS algoritmalarıyla ağ analizi
+## 📌 Proje Açıklaması  
+Red-Black Tree (Kırmızı-Siyah Ağaç) kullanarak geliştirdiğim bu proje, sosyal ağlardaki kullanıcı ilişkilerini analiz eder. Kullanıcıları verimli bir şekilde saklar ve aşağıdaki analizleri yapar.
 
-Belirli derecedeki arkadaşları bulma
+## ✨ Temel Özellikler
+✔️ **Kullanıcı Yönetimi**  
+✔️ **Arkadaşlık İlişkileri** (Çift yönlü bağlantılar)  
+✔️ **DFS/BFS Algoritmaları** ile ağ tarama  
+✔️ **Ortak Arkadaş Bulma**  
+✔️ **Etki Alanı Hesaplama** (BFS tabanlı)  
+✔️ **Topluluk Tespiti** (Bağlı bileşenler)
 
-Ortak arkadaş analizi
+---
 
-Topluluk tespiti (bağlı bileşenler)
+## 🛠️ Kurulum
 
-Etki alanı hesaplama
+### Gereksinimler
+- GCC Derleyici
+- GNU Make
+
+### Adımlar
+```bash
+# Repoyu klonla
+git clone https://github.com/kullaniciadiniz/sosyal-ag-analizi.git
+
+# Klasöre gir
+cd sosyal-ag-analizi
+
+# Programı derle
+make
+
+# Çalıştır
+./sosyal_ag
